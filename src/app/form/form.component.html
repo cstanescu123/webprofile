@@ -1,0 +1,17 @@
+<body>
+    <div class="header">
+    	<h1>Email List</h1>
+    	<p>Sign up and get random emails from me!</p>
+    </div>
+    <div id="form-body">
+		<form>
+			<label for="name">Full Name: </label>
+			<input type="text" [formControl]="nameFormControl" />
+<br><br>
+			<label for="emailAddress">Email Address: </label>
+			<input type="text" [formControl]="emailFormControl" />
+<br><br>
+		<button type="submit">Submit form!</button>
+
+		</form>
+		
